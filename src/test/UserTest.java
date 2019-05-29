@@ -5,14 +5,14 @@ import java.util.List;
 interface A{
 	void aa();
 	default void bb() {
-		System.out.println("非抽象类");
+		System.out.println("路脟鲁茅脧贸脌脿");
 	}
 }
 class B implements A{
 
 	@Override
 	public void aa() {
-		System.out.println("这是实现类");
+		System.out.println("脮芒脢脟脢碌脧脰脌脿");
 		
 	}
 	
@@ -25,6 +25,7 @@ public class UserTest {
 		B  b = new B();
 		b.aa();
 		b.bb();
+		b.aa();
 		
 	}
 
