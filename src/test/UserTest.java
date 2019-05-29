@@ -26,6 +26,7 @@ public class UserTest {
 		b.aa();
 		b.bb();
 		b.aa();
+		b.bb();
 		
 	}
 
